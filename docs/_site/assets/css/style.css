@@ -244,3 +244,9 @@ footer { width: 170px; float: left; position: fixed; bottom: 10px; padding-left:
 .wrapper { width: 1000px; }
 
 header { width: 250px; float: top; padding: 34px 25px 22px 50px; }
+
+section td { background: none; }
+
+section tr:nth-child(even) { background: #CCC; }
+
+section tr:nth-child(odd) { background: #FFF; }

@@ -18,7 +18,7 @@
 <!-- End Jekyll SEO tag -->
 
     <link href='https://fonts.googleapis.com/css?family=Arvo:400,700,400italic' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="/assets/css/style.css?v=793bec16568bb996462ed256e32ce6f9616e96b1">
+    <link rel="stylesheet" href="/assets/css/style.css?v=fa9ce2af185b1e5a9c23afd6606c13fad6df5d10">
     <script src="/assets/js/scale.fix.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <!--[if lt IE 9]>
@@ -45,7 +45,7 @@
 
       <section>
         <h1 id="introduction">Introduction</h1>
-<p>Here, you can access the datasets and source code used in our IMC’17 paper: <a href="https://www.cs.indiana.edu/~fengqian/paper/ifttt_imc17.pdf"><strong>An Empirical Characterization of IFTTT: Ecosystem, Usage, and Performance</strong></a>. For details on those sourcec code and datasets, please read through this page. If you have any questions, please <a href="mailto:xmi@indiana.edu">contact me</a>. When you use our datasets or source code in any publications, please refer our work in the following format.</p>
+<p>Here, you can access the datasets and source code used in our IMC’17 paper: <a href="https://www.cs.indiana.edu/~fengqian/paper/ifttt_imc17.pdf"><strong>An Empirical Characterization of IFTTT: Ecosystem, Usage, and Performance</strong></a>. For details on those sourcec code and datasets, please read through this page. If you have any questions, please <a href="mailto:xmi@indiana.edu">contact me</a>. When you use our datasets or source code in any publications, please refer to our work.</p>
 <div class="highlighter-rouge"><pre class="highlight"><code>Xianghang Mi, Feng Qian, Ying Zhang, and XiaoFeng Wang. 
 An Empirical Characterization of IFTTT: Ecosystem, Usage, and Performance. 
 In Proceedings of IMC ’17. ACM, New York, NY, USA, 7 pages. 
@@ -57,22 +57,172 @@ https://doi. org/10.1145/3131365.3131369
 <p>The source code consists of three parts.</p>
 <ul>
   <li>
-    <p>Data Crawling</p>
+    <p><a href="https://github.com/mixianghang/IFTTT_measurement/tree/master/datacrawling"><strong>Data Crawling</strong></a></p>
 
-    <p>This part is used to crawl IFTTT pages for Services and Applets.</p>
+    <p>Scripts to crawl IFTTT pages for Services and Applets.</p>
   </li>
   <li>
-    <p>Testbed</p>
+    <p><a href="https://github.com/mixianghang/IFTTT_measurement/tree/master/testbed"><strong>Testbed</strong></a></p>
 
-    <p>This part acts as the testbed to measure performance of applet execution.</p>
+    <p>The testbed to measure performance of applet execution.</p>
   </li>
   <li>
-    <p>Measurement</p>
+    <p><a href="https://github.com/mixianghang/IFTTT_measurement/tree/master/measurements"><strong>Measurement</strong></a></p>
 
     <p>Scripts to measure IFTTT usage.</p>
-    <h1 id="datasets">Datasets</h1>
   </li>
 </ul>
+
+<h1 id="datasets">Datasets</h1>
+
+<h2 id="dataset-list">Dataset List</h2>
+<p>We ran a weekly job to crawl IFTTT for Services and Applets from Nov 2016 to May 2017. Here, we provide one snaptshot for each month as shown bellow.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Date</th>
+      <th style="text-align: center">Download</th>
+      <th style="text-align: center">Download</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center"><code class="highlighter-rouge">Nov 2016</code></td>
+      <td style="text-align: center"><a href="/download/201611.tar.gz"><strong>TAR.GZ</strong></a></td>
+      <td style="text-align: center"><a href="/download/201611.7z"><strong>7Z</strong></a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><code class="highlighter-rouge">Dec 2016</code></td>
+      <td style="text-align: center"><a href="/download/201612.tar.gz"><strong>TAR.GZ</strong></a></td>
+      <td style="text-align: center"><a href="/download/201612.7z"><strong>7Z</strong></a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><code class="highlighter-rouge">Jan 2017</code></td>
+      <td style="text-align: center"><a href="/download/201701.tar.gz"><strong>TAR.GZ</strong></a></td>
+      <td style="text-align: center"><a href="/download/201701.7z"><strong>7Z</strong></a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><code class="highlighter-rouge">Feb 2017</code></td>
+      <td style="text-align: center"><a href="/download/201702.tar.gz"><strong>TAR.GZ</strong></a></td>
+      <td style="text-align: center"><a href="/download/201702.7z"><strong>7Z</strong></a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><code class="highlighter-rouge">Mar 2017</code></td>
+      <td style="text-align: center"><a href="/download/201703.tar.gz"><strong>TAR.GZ</strong></a></td>
+      <td style="text-align: center"><a href="/download/201703.7z"><strong>7Z</strong></a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><code class="highlighter-rouge">Apr 2017</code></td>
+      <td style="text-align: center"><a href="/download/201704.tar.gz"><strong>TAR.GZ</strong></a></td>
+      <td style="text-align: center"><a href="/download/201704.7z"><strong>7Z</strong></a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><code class="highlighter-rouge">May 2017</code></td>
+      <td style="text-align: center"><a href="/download/201705.tar.gz"><strong>TAR.GZ</strong></a></td>
+      <td style="text-align: center"><a href="/download/201705.7z"><strong>7Z</strong></a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="dataset-descriptions">Dataset Descriptions</h2>
+<p>In each snapshot, you will find the following files.</p>
+<ul>
+  <li>
+    <p><strong>channelList.json</strong></p>
+
+    <p>Each line of this file is the json string of an IFTTT service(channel). The json format is shown as below.</p>
+    <div class="language-json highlighter-rouge"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nt">"channelId"</span><span class="p">:</span><span class="w"> </span><span class="s2">"1172726678"</span><span class="p">,</span><span class="w">
+  </span><span class="nt">"channelImgUrl"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://applets.imgix.net/https%3A%2F%2Fassets.ifttt.com%2Fimages%2Fchannels%2F1172726678%2Fi
+cons%2Fon_color_large.png%3Fversion%3D0?ixlib=rails-2.1.3&amp;w=240&amp;h=240&amp;auto=compress&amp;s=beb5a3409a4687d2eda784478ff9b
+6c7"</span><span class="p">,</span><span class="w">
+  </span><span class="nt">"channelName"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Amazon Alexa (US only)"</span><span class="p">,</span><span class="w">
+  </span><span class="nt">"channelUrl"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://ifttt.com/amazon_alexa"</span><span class="w">
+</span><span class="p">}</span><span class="w"> 
+</span></code></pre>
+    </div>
+  </li>
+  <li>
+    <p><strong>triggerList.json</strong></p>
+
+    <p>Each IFTTT service may consist of multiple triggers and actions. This file lists all the triggers captured in current snapshot.</p>
+    <div class="language-json highlighter-rouge"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nt">"triggerChannelId"</span><span class="p">:</span><span class="w"> </span><span class="s2">"1172726678"</span><span class="p">,</span><span class="w">
+  </span><span class="nt">"triggerChannelName"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Amazon Alexa (US only)"</span><span class="p">,</span><span class="w">
+  </span><span class="nt">"triggerChannelUrl"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://ifttt.com/amazon_alexa"</span><span class="p">,</span><span class="w">
+  </span><span class="nt">"triggerDesc"</span><span class="p">:</span><span class="w"> </span><span class="s2">"This Trigger fires every time you say \"Alexa trigger\" + the phrase that you have defined. For
+ instance, if you set \"find my phone\" as the phrase, you can say \"Alexa trigger find my phone\" to make your pho
+ne ring. Please use lower-case only."</span><span class="p">,</span><span class="w">
+  </span><span class="nt">"triggerFieldList"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+      </span><span class="s2">"What phrase?"</span><span class="w">
+  </span><span class="p">],</span><span class="w">   
+  </span><span class="nt">"triggerId"</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span><span class="w">
+  </span><span class="nt">"triggerIngList"</span><span class="p">:</span><span class="w"> </span><span class="p">[],</span><span class="w">
+  </span><span class="nt">"triggerTitle"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Say a specific phrase"</span><span class="p">,</span><span class="w">
+  </span><span class="nt">"triggerUrl"</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre>
+    </div>
+  </li>
+  <li>
+    <p><strong>actionList.json</strong></p>
+
+    <p>Each IFTTT service may consist of multiple triggers and actions. This file lists all actionss captured in current snapshot.</p>
+    <div class="language-json highlighter-rouge"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nt">"actionChannelId"</span><span class="p">:</span><span class="w"> </span><span class="s2">"71"</span><span class="p">,</span><span class="w">
+  </span><span class="nt">"actionChannelName"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Philips Hue"</span><span class="p">,</span><span class="w">
+  </span><span class="nt">"actionChannelUrl"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://ifttt.com/hue"</span><span class="p">,</span><span class="w">
+  </span><span class="nt">"actionDesc"</span><span class="p">:</span><span class="w"> </span><span class="s2">"This Action will turn on your hue lights."</span><span class="p">,</span><span class="w">
+  </span><span class="nt">"actionFieldList"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+      </span><span class="s2">"Which lights?"</span><span class="w">
+  </span><span class="p">],</span><span class="w">  
+  </span><span class="nt">"actionId"</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span><span class="w">
+  </span><span class="nt">"actionTitle"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Turn on lights"</span><span class="p">,</span><span class="w">
+  </span><span class="nt">"actionUrl"</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="w">
+</span><span class="p">}</span><span class="w">
+
+</span></code></pre>
+    </div>
+  </li>
+  <li>
+    <p><strong>channelDetailList.json</strong></p>
+
+    <p>This file simply combine the aforementioned 3 files with each line repsenting an IFTTT service and related triggers and actions.</p>
+  </li>
+  <li>
+    <p><strong>recipes.json</strong></p>
+
+    <p>This file stores all applets(recipes) crawled in current snapshots.</p>
+
+    <div class="language-json highlighter-rouge"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nt">"actionChannelId"</span><span class="p">:</span><span class="w"> </span><span class="s2">"71"</span><span class="p">,</span><span class="w">
+  </span><span class="nt">"actionChannelTitle"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Philips Hue"</span><span class="p">,</span><span class="w">
+  </span><span class="nt">"actionChannelUrl"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://ifttt.com//hue"</span><span class="p">,</span><span class="w">
+  </span><span class="nt">"actionDesc"</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span><span class="w">
+  </span><span class="nt">"actionId"</span><span class="p">:</span><span class="w"> </span><span class="mi">-1</span><span class="p">,</span><span class="w"> 
+  </span><span class="nt">"actionTitle"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Turn on lights"</span><span class="p">,</span><span class="w">
+  </span><span class="nt">"addCount"</span><span class="p">:</span><span class="w"> </span><span class="s2">"71k"</span><span class="p">,</span><span class="w">
+  </span><span class="nt">"creatorName"</span><span class="p">:</span><span class="w"> </span><span class="s2">"bsaren"</span><span class="p">,</span><span class="w">
+  </span><span class="nt">"creatorUrl"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://ifttt.com//maker/bsaren"</span><span class="p">,</span><span class="w">
+  </span><span class="nt">"desc"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Never be left in the dark. Whenever the sun starts to set, your Philips Hue bulbs will automatically t
+urn on."</span><span class="p">,</span><span class="w">
+  </span><span class="nt">"favoritesCount"</span><span class="p">:</span><span class="w"> </span><span class="mi">-1</span><span class="p">,</span><span class="w"> 
+  </span><span class="nt">"isDoRecipe"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span><span class="w">
+  </span><span class="nt">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Automatically turn your lights on at sunset"</span><span class="p">,</span><span class="w">
+  </span><span class="nt">"triggerChannelId"</span><span class="p">:</span><span class="w"> </span><span class="s2">"7"</span><span class="p">,</span><span class="w">
+  </span><span class="nt">"triggerChannelTitle"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Weather Underground"</span><span class="p">,</span><span class="w">
+  </span><span class="nt">"triggerChannelUrl"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://ifttt.com//weather"</span><span class="p">,</span><span class="w">
+  </span><span class="nt">"triggerDesc"</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span><span class="w">
+  </span><span class="nt">"triggerId"</span><span class="p">:</span><span class="w"> </span><span class="mi">-1</span><span class="p">,</span><span class="w"> 
+  </span><span class="nt">"triggerTitle"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Sunset"</span><span class="p">,</span><span class="w">
+  </span><span class="nt">"url"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://ifttt.com/applets/94447p-automatically-turn-your-lights-on-at-sunset"</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre>
+    </div>
+  </li>
+</ul>
+
 
       </section>
 

@@ -2,3 +2,4 @@ theme: jekyll-theme-dinky
 repository: mixianghang/IFTTT_measurement
 title: IFTTT Profile
 description: Measure the IFTTT ecosystem using a data-driven  methodology.
+markdown: kramdown
