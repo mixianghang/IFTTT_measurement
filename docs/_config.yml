@@ -3,3 +3,4 @@ repository: mixianghang/IFTTT_measurement
 title: IFTTT Profile
 description: Measure the IFTTT ecosystem using a data-driven  methodology.
 markdown: kramdown
+baseurl: /IFTTT_measurement
