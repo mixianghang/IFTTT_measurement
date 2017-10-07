@@ -1,7 +1,8 @@
 ---
 ---
 # Introduction
-Here, you can access the datasets and source code used in our IMC'17 paper: [**An Empirical Characterization of IFTTT: Ecosystem, Usage, and Performance**](https://www.cs.indiana.edu/~fengqian/paper/ifttt_imc17.pdf). For details on those sourcec code and datasets, please read through this page. If you have any questions, please [contact me](mailto:xmi@indiana.edu). When you use our datasets or source code in any publications, please refer to our work.
+Here, we present the data and code of our IMC'17 paper: [**An Empirical Characterization of IFTTT: Ecosystem, Usage, and Performance**](https://www.cs.indiana.edu/~fengqian/paper/ifttt_imc17.pdf). 
+Read through this page to learn more. If you have any further questions, please contact the authors. When you use our datasets or code, please refer to our work.
 ```
 Xianghang Mi, Feng Qian, Ying Zhang, and XiaoFeng Wang. 
 An Empirical Characterization of IFTTT: Ecosystem, Usage, and Performance. 
@@ -42,7 +43,7 @@ Date | Download | Download
 In each snapshot, you will find the following files.
 - **channelList.json**
 
-  Each line of this file is the json string of an IFTTT service(channel). The json format is shown as below.
+  Each line of this file is an IFTTT service(channel) encoded in json. One example is shown as below.
   ```json
 {
     "channelId": "1172726678",
@@ -93,11 +94,11 @@ ne ring. Please use lower-case only.",
   ```
 - **channelDetailList.json**
 
-   This file simply combine the aforementioned 3 files with each line repsenting an IFTTT service and related triggers and actions.
+   This file simply combines the aforementioned 3 files so that each line repsents an IFTTT service and related triggers and actions.
 
 - **recipes.json**
 
-   This file stores all applets(recipes) crawled in current snapshots.
+   This file stores all applets(recipes) crawled in current snapshot.
 
    ```json
 {

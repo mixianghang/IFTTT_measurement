@@ -45,7 +45,8 @@
 
       <section>
         <h1 id="introduction">Introduction</h1>
-<p>Here, you can access the datasets and source code used in our IMC’17 paper: <a href="https://www.cs.indiana.edu/~fengqian/paper/ifttt_imc17.pdf"><strong>An Empirical Characterization of IFTTT: Ecosystem, Usage, and Performance</strong></a>. For details on those sourcec code and datasets, please read through this page. If you have any questions, please <a href="mailto:xmi@indiana.edu">contact me</a>. When you use our datasets or source code in any publications, please refer to our work.</p>
+<p>Here, we present the data and code of our IMC’17 paper: <a href="https://www.cs.indiana.edu/~fengqian/paper/ifttt_imc17.pdf"><strong>An Empirical Characterization of IFTTT: Ecosystem, Usage, and Performance</strong></a>. 
+Read through this page to learn more. If you have any further questions, please contact the authors. When you use our datasets or code, please refer to our work.</p>
 <div class="highlighter-rouge"><pre class="highlight"><code>Xianghang Mi, Feng Qian, Ying Zhang, and XiaoFeng Wang. 
 An Empirical Characterization of IFTTT: Ecosystem, Usage, and Performance. 
 In Proceedings of IMC ’17. ACM, New York, NY, USA, 7 pages. 
@@ -131,7 +132,7 @@ https://doi. org/10.1145/3131365.3131369
   <li>
     <p><strong>channelList.json</strong></p>
 
-    <p>Each line of this file is the json string of an IFTTT service(channel). The json format is shown as below.</p>
+    <p>Each line of this file is an IFTTT service(channel) encoded in json. One example is shown as below.</p>
     <div class="language-json highlighter-rouge"><pre class="highlight"><code><span class="p">{</span><span class="w">
   </span><span class="nt">"channelId"</span><span class="p">:</span><span class="w"> </span><span class="s2">"1172726678"</span><span class="p">,</span><span class="w">
   </span><span class="nt">"channelImgUrl"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://applets.imgix.net/https%3A%2F%2Fassets.ifttt.com%2Fimages%2Fchannels%2F1172726678%2Fi
@@ -188,12 +189,12 @@ ne ring. Please use lower-case only."</span><span class="p">,</span><span class=
   <li>
     <p><strong>channelDetailList.json</strong></p>
 
-    <p>This file simply combine the aforementioned 3 files with each line repsenting an IFTTT service and related triggers and actions.</p>
+    <p>This file simply combines the aforementioned 3 files so that each line repsents an IFTTT service and related triggers and actions.</p>
   </li>
   <li>
     <p><strong>recipes.json</strong></p>
 
-    <p>This file stores all applets(recipes) crawled in current snapshots.</p>
+    <p>This file stores all applets(recipes) crawled in current snapshot.</p>
 
     <div class="language-json highlighter-rouge"><pre class="highlight"><code><span class="p">{</span><span class="w">
   </span><span class="nt">"actionChannelId"</span><span class="p">:</span><span class="w"> </span><span class="s2">"71"</span><span class="p">,</span><span class="w">
