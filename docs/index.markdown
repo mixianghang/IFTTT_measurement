@@ -30,13 +30,13 @@ We ran a weekly job to crawl IFTTT for Services and Applets from Nov 2016 to May
 
 Date | Download | Download
 :-----: | :---: | :---:
-`Nov 2016` | [**TAR.GZ**]({{ "/download/201611.tar.gz" }}) | [**7Z**]({{ "/download/201611.7z" }})
-`Dec 2016` | [**TAR.GZ**]({{ "/download/201612.tar.gz" }}) | [**7Z**]({{ "/download/201612.7z" }})
-`Jan 2017` | [**TAR.GZ**]({{ "/download/201701.tar.gz" }}) | [**7Z**]({{ "/download/201701.7z" }})
-`Feb 2017` | [**TAR.GZ**]({{ "/download/201702.tar.gz" }}) | [**7Z**]({{ "/download/201702.7z" }})
-`Mar 2017` | [**TAR.GZ**]({{ "/download/201703.tar.gz" }}) | [**7Z**]({{ "/download/201703.7z" }})
-`Apr 2017` | [**TAR.GZ**]({{ "/download/201704.tar.gz" }}) | [**7Z**]({{ "/download/201704.7z" }})
-`May 2017` | [**TAR.GZ**]({{ "/download/201705.tar.gz" }}) | [**7Z**]({{ "/download/201705.7z" }})
+`Nov 2016` | [**TAR.GZ**]({{ "download/201611.tar.gz" }}) | [**7Z**]({{ "download/201611.7z" }})
+`Dec 2016` | [**TAR.GZ**]({{ "download/201612.tar.gz" }}) | [**7Z**]({{ "download/201612.7z" }})
+`Jan 2017` | [**TAR.GZ**]({{ "download/201701.tar.gz" }}) | [**7Z**]({{ "download/201701.7z" }})
+`Feb 2017` | [**TAR.GZ**]({{ "download/201702.tar.gz" }}) | [**7Z**]({{ "download/201702.7z" }})
+`Mar 2017` | [**TAR.GZ**]({{ "download/201703.tar.gz" }}) | [**7Z**]({{ "download/201703.7z" }})
+`Apr 2017` | [**TAR.GZ**]({{ "download/201704.tar.gz" }}) | [**7Z**]({{ "download/201704.7z" }})
+`May 2017` | [**TAR.GZ**]({{ "download/201705.tar.gz" }}) | [**7Z**]({{ "download/201705.7z" }})
 
 ## Dataset Descriptions
 In each snapshot, you will find the following files.
